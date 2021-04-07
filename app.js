@@ -19,4 +19,4 @@ else if (operator == "-"){
     var result = num1 * num2
     alert(`The multiplication of ${num1} and ${num2} is ${result}`)
  }
- else{alert(` failed`)}
+ else{alert(`failed`)}
