@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+.banner {
+  justify-content: center;
+  align-items: center;
+  font-family: Lato, sans-serif;
+}
+
+.whts {
+  color: white;
+}
+
+.bg-dark {
+  background-color: black;
+}
+.container {
+  
+  
+  justify-content: space-between;
+}
+.navbar {
+  margin: 10px 50px 100px 50px;
+}
+
+.navbar {
+  padding: 3px 0px 1px 0px;
+  height: 60px;
+  display: flex;
+ 
+ 
+}
+.logo {
+  width: 40%;
+}
+
+.menu {
+  width: 60%;
+  list-style: none;
+  display: grid;
+ 
+}
+
+.menu a {
+  text-decoration: none;
+  float: left;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.active {
+  text-decoration: none;
+  padding-bottom: 5px;
+    border-bottom: 2px solid #ce4709;
+  text-align: center;
+  
+}
+
+.bbox-section {
+ 
+  height: 200px;
+  margin: 10px 50px 70px 50px;
+}
+
+
+.box{
+  font-weight:bold;
+  font-size:50px ;
+  padding-bottom: 20px;
+}
+
+.active2 {
+  text-decoration: none;
+  padding-top: 17px;
+  border-top: 3px solid #d73952;
+  text-align: center;
+  
+}
+
+.butn{
+  border: 3px solid #d73952;
+  padding: 10px 5px;
+  
+  width:160px;
+  text-align: center;
+}
+
+.bbox2-section {
+  height: 350px;
+  margin: 10px 50px 70px 50px;
+ 
+}
+
+.father {
+  
+  margin:0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.orange{
+  background-color:#d73952;
+}
+
+.bks{
+  background-color:#1b1b1b;
+}
+.correct{
+  padding: 30px 10px;
+  height:250px;
+  width: 27%;
+  
+  margin:10px;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+
+.correcter{
+  
+  height:260px;
+  width: 28%;
+  text-align: center;
+  margin:10px;
+  justify-content: center;
+   align-items: center;
+  float: left;
+}
+
+.breaker-box{
+  background-color: black;
+  height:220px;
+  width: 100%;
+}
+.correctb{
+  
+  height:250px;
+  width: 285px;
+ 
+  
+}
+
+.material-icons-outlined.md-48 {
+  font-size: 48px; 
+}
+
+.material-icons-outlined.md-light.md-inactive {
+   color: rgba(255, 255, 255, 0.925);
+ }
+
+ .material-icons-outlined.md-light {
+    color: rgba(255, 255, 255, 1); }

@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #121212;
+ }
+ 
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  text-decoration: none;
+  outline: none; }
+
+a:focus,
+a:hover {
+  text-decoration: none; }
+
+  a {
+    display: inline-block; }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #121212;
+    margin: 0px; }
+  
+  h1 {
+    font-size: 48px; }
+  
+  h2 {
+    font-size: 36px; }
+  
+  h3 {
+    font-size: 28px; }
+  
+  h4 {
+    font-size: 22px; }
+  
+  h5 {
+    font-size: 18px; }
+  
+  h6 {
+    font-size: 16px; }
+
+    
+.egg{
+
+  width: 426px;
+  height: 480px;
+  overflow: hidden;
+  border: none;
+ 
+  border-radius: 40% 90% 50% 75% / 70% 60% 60% 65%;
+ 
+ 
+  background: url("../images/rsx.jpg"), #db3425;
+  background-position: 50% 50%;
+  margin-top: ;
+  margin-right: ;
+    position: absolute;
+    top: -58px;
+    right: -50px;
+}
+.eggs{
+  background: #db3425;
+  width: 106px;
+  height: 120px;
+   border-radius: 40% 90% 50% 75% / 70% 60% 60% 65%;
+ 
+  
+  
+}
+
+.g2{
+  background-color: #ff7981;
+  
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index:10;
+  
+}
+.g1{
+  background-color: #ff7981;
+  margin-left: -53px;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  z-index:10;
+}
+.section1 {
+  background-color: #f0f0f077;
+  position:relative;
+}
+.section2 {
+  
+  position:relative;
+}
+
+.section1-title{
+  
+z-index:30;
+}
+
+.section1-title .title {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 55px;
+  
+  color: #121212; }
+
+.section1-title .text {
+  font-size: 20px;
+  line-height: 24px;
+  color: #6c6c6c;
+  margin-top: 24px; }
+
+
+.section-title{
+  
+  position: relative;
+z-index:30;
+}
+
+.section-title .title {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 55px;
+  
+  color: #121212; }
+
+.section-title .text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #6c6c6c;
+  margin-top: 24px; }
+
+
+.whts {
+  color: blue;
+}
+
+.menu {
+  width: 60%;
+  list-style: none;
+  display: grid;
+ 
+}
+
+.menu a {
+  text-decoration: none;
+  float: left;
+  padding: 10px;
+  color: rgb(8, 8, 8);
+  text-align: center;
+  font-weight: bold;
+}
