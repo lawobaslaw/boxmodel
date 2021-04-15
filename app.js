@@ -1,10 +1,11 @@
 
 function addColor(){
-   2+2;
+console.log('green');
 }
-console.log(addColor());
 
-const myFunction= function addColor(){
+addColor();
+
+const myFunction= function(){
  return  2+2;
 }
 
