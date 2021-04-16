@@ -26,83 +26,88 @@
     <div class="bshift">
     <div class="container">
       <div class="box1 p-4">
-        <h1 class="mx-auto text-center p-3 text-primary">Programming Quiz</h1>
+        <h1 class="mx-auto text-center my-4 text-info">Programming Quiz</h1>
       </div>
     </div>
+    <section class="result py-4 d-none bg-light text-center">
     <div class="container">
-      <div class="spanholder p-4">
-        <h6 class="mx-auto text-center">
-          You are <span class="percent">7</span> ready
+      <div >
+        <h6 class="mx-auto">
+          You are <span class="percent" id="percentage"></span> ready
         </h6>
       </div>
-    </div>
+    </div></section>
+    <div class="quiz bg-info py-4">
     <div class="container">
       <div class="questionbox">
         <h3 class="text-white">Let's start the question...</h3>
-        <form >
+        <form class="myForms" >
           <p class="pt-3">
             <strong>1. Javascript and java are the same thing.</strong>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio1Default" id="radio1Default1" >
-              <label class="form-check-label" for="radio1Default1">
-                Of Course!
+            <div class="form-check text-white-50 my-">
+              <input class="form-check-input" type="radio" name="q1" id="radio1Default1" value="A" checked >
+              <label class="form-check-label" >
+                Of Course!!
               </label>
             </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio1Default" id="radio1Default2" >
-              <label class="form-check-label" for="radio1Default2">
-               No, despite having close concept and
+            <div class="form-check text-white-50 my-">
+              <input class="form-check-input" type="radio" name="q1" id="radio1Default2" value="B" >
+              <label class="form-check-label" >
+               No, despite having close concept and names they have many differences
               </label>
             </div>
           </p>
            <p class="pt-3">
-            <strong>2. Javascript and java are the same thing.</strong>
+            <strong>2. How can you use JavaScript on the Back end.</strong>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio2Default" id="radio2Default1">
-              <label class="form-check-label" for="radio2Default1">
-                Of Course!
+              <input class="form-check-input" type="radio" name="q2" id="radio2Default1" value="A"  checked>
+              <label class="form-check-label" >
+                JavaScript is not for Back end!!
               </label>
             </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio2Default" id="radio1Default2" >
-              <label class="form-check-label" for="radio2Default2">
-               No, despite having close concept and
+            <div class="form-check text-white-50 my-">
+              <input class="form-check-input" type="radio" name="q2" id="radio2Default2" value="B">
+              <label class="form-check-label" >
+               Use NODE.js
               </label>
             </div>
           </p>
           <p class="pt-3">
-            <strong>3. Javascript and java are the same thing.</strong>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio3Default" id="radio3Default1">
-              <label class="form-check-label" for="radio3Default1">
-                Of Course!
-              </label>
+            <strong>3. What should you study to learn deeper about Web Development?</strong>
+            <div class="form-check text-white-50 my-">
+              <input class="form-check-input" type="radio" name="q3" id="radio3Default1" value="A"  checked>
+              <label class="form-check-label" >
+                Html| CSS | JavaScript
+              </label >
             </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio3Default" id="radio3Default2" >
-              <label class="form-check-label" for="radio3Default2">
-               No, despite having close concept and
+            <div class="form-check text-white-50 my-">
+              <input class="form-check-input" type="radio" name="q3" id="radio3Default2" value="B">
+              <label class="form-check-label" >
+               Wordpress
               </label>
             </div>
           </p>
            <p class="pt-3">
-            <strong>4. Javascript and java are the same thing.</strong>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio4Default" id="radio4Default1">
-              <label class="form-check-label" for="radio4Default1">
-                Of Course!
+            <strong>4. What is needed to be a great programmer?</strong>
+            <div class="form-check text-white-50 my-2">
+              <input class="form-check-input" type="radio" name="q4" id="radio4Default1" value="A"  checked>
+              <label class="form-check-label" >
+               You have to be a genius to achieve that.
               </label>
             </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio4Default" id="radio4Default2" >
-              <label class="form-check-label" for="radio4Default2">
-               No, despite having close concept and
+            <div class="form-check text-white-50 my-2">
+              <input class="form-check-input" type="radio" name="q4" id="radio4Default2" value="B">
+              <label class="form-check-label" >
+               Have Consistency.
               </label>
             </div>
           </p>
+          <div class="text-center"> <input type="submit" value="submit" class="btn btn-light"> </div>
         </form>
       </div>
-    </div></div>
+    </div>
+  </div>
+  </div>
     <script src="radio.js"></script>
   </body>
 </html>
