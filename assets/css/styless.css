@@ -5,16 +5,14 @@ body {
   font-style: normal;
   display: block;
   background-color: #f1f1f1 !important;
- 
 }
 
 .bshift {
-  width:70%;
-  margin: auto;
+  width: 70%;
+ 
 }
 
 .box1 {
-  background-color: white;
   height: 120px;
 }
 
@@ -23,8 +21,7 @@ body {
   height: 100px;
 }
 
-
 .percent {
- font-size:32px;
- color: blue;
+  font-size: 32px;
+  color: blue;
 }

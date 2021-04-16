@@ -22,17 +22,7 @@ scrollTo(0,0);
 /** Display Result Section */
 result.classList.remove("d-none");
 /** Display result value on html */
-let output = 0;
-const timer =setInterval(() => {
-  result.querySelector('span').textContent = `${score}%`;
-  if (output === score) {
-    clearInterval(timer);
-  } else{
-    output++
-  }
-}, 300);
-console.log(score);
-
+result.querySelector('span').textContent = `${score}%`;
 })
 
 // let m=0;
